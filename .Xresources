@@ -38,39 +38,58 @@
 
 !! black dark/light
 *color0: S_base02
+stjerm.color0: #073642
 *color8: S_base01
+stjerm.color8: #586e75
 
 !! red dark/light
 *color1: S_red
+stjerm.color1: #dc322f
 *color9: S_orange
+stjerm.color9: #cb4b16
 
 !! green dark/light
 *color2: S_green
+stjerm.color2: #859900
 *color10: S_base01
+stjerm.color10: #586e75
 
 !! yellow dark/light
 *color3: S_yellow
+stjerm.color3: #b58900
 *color11: S_base00
+stjerm.color11: #657b83
 
 !! blue dark/light
 *color4: S_blue
+stjerm.color4: #268bd2
 *color12: S_base0
+stjerm.color12: #839496
 
 !! magenta dark/light
 *color5: S_magenta
+stjerm.color5: #d33682
 *color13: S_violet
+stjerm.color13: #6c71c4
 
 !! cyan #073642dark/light
 *color6: S_cyan
+stjerm.color6: #2aa198
 *color14: S_base1
+stjerm.color14: #93a1a1
 
 !! white dark/light
 *color7: S_base2
+stjerm.color7: #eee8d5
 *color15: S_base3
+stjerm.color15: #fdf6e3
 
 *background: S_base02
+stjerm.background: #073642
 *foreground: S_base1
+stjerm.foreground: #93a1a1
 *cursorColor: S_base1
+stjerm.cursorColor: #93a1a1
 
 *fading: 40
 *fadeColor: S_base03
