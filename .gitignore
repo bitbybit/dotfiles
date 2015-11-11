@@ -53,6 +53,7 @@
 .gimp*
 .gnupg
 .go
+.grafx2/gfx2.cfg
 .gstreamer*
 .hoh
 .icons
