@@ -1,0 +1,32 @@
+# define a bigger scrollback, default is 100 lines
+defscrollback 2048
+
+# turn sending of screen messages to hardstatus off
+hardstatus off
+
+# An alternative hardstatus to display a bar at the bottom listing the
+# windownames and highlighting the current windowname in blue. (This is only
+# enabled if there is no hardstatus setting for your terminal)
+#
+hardstatus lastline "%?%F%{.R.}%?%3n %t%? [%h]%?"
+
+caption always
+caption string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %u"
+
+# Left Right meta key mods
+#ALT-,. and ALT-<>
+bindkey "^[<" eval number !echo $WINDOW-1|bc
+bindkey "^[>" eval number !echo $WINDOW+1|bc
+bindkey "^[," prev
+bindkey "^[." next
+
+# ------------------------------------------------------------------------------
+# STARTUP SCREENS
+# ------------------------------------------------------------------------------
+#         Screen_name   Screen #        Startup command
+screen -t MC 0 mc
+screen -t top 1 htop
+screen -t bash 2
+screen -t bash 3
+
+startup_message off
