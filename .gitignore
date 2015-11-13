@@ -39,6 +39,7 @@
 .config/nomacs
 .config/openbox
 .config/orage
+.config/pavucontrol.ini
 .config/pulse
 .config/Skype
 .config/sflphone
@@ -107,6 +108,7 @@
 .ICEauthority
 .SciTE.session
 .selected_editor
+.sfl.pid
 .Xauthority
 .xscreensaver
 .xsession-errors*
