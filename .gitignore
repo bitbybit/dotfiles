@@ -11,11 +11,13 @@
 .avidemux
 .build
 .cache
+.claws-mail
 .config/Atom
 .config/autostart
 .config/chromium
 .config/clipit
 .config/configstore
+.config/bashrun
 .config/darktable
 .config/dconf
 .config/deadbeef
@@ -62,6 +64,7 @@
 .dosbox
 .dropbox*
 .elinks
+.flashTool
 .fontconfig
 .gem
 .gimp*
@@ -93,6 +96,7 @@
 .ssh
 .steam*
 .subversion
+.swt
 .thumbnails
 .thunderbird
 .tor-browser*
