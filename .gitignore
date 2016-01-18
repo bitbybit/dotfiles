@@ -1,8 +1,8 @@
 *.log
 *.tmp
 *.lock
-*.xml
 *_history
+
 .adobe
 .aMule
 .android
@@ -14,6 +14,7 @@
 .claws-mail
 .config/Atom
 .config/autostart
+.config/cairo-compmgr
 .config/chromium
 .config/clipit
 .config/configstore
@@ -38,8 +39,8 @@
 .config/mc
 .config/meld
 .config/mupen64plus
+.config/mypaint
 .config/nomacs
-.config/openbox
 .config/orage
 .config/pavucontrol.ini
 .config/pulse
@@ -50,11 +51,13 @@
 .config/syncthing*
 .config/Thunar
 .config/tint2
+!.config/tint2/tint2rc
 .config/TOra
 .config/viewnior
 .config/vlc
 .config/volumeicon
 .config/mimeapps.list
+.config/qt5ct
 .config/QtProject.conf
 .config/Trolltech.conf
 .config/update-notifier
@@ -63,6 +66,7 @@
 .dbus
 .dosbox
 .dropbox*
+.ecryptfs
 .elinks
 .flashTool
 .fontconfig
@@ -89,9 +93,9 @@
 .opera*
 .pki
 .PlayOnLinux
+.Private
 .pulse*
 .scripts
-.serious
 .Skype
 .ssh
 .steam*
@@ -101,9 +105,9 @@
 .thunderbird
 .tor-browser*
 .vpn
-.vvvvvv
 .wicd
 .wine
+
 .composer*
 .djsd
 .gitconfig
@@ -113,9 +117,11 @@
 .SciTE.session
 .selected_editor
 .sfl.pid
+.wallpaper.jpg
 .Xauthority
 .xscreensaver
 .xsession-errors*
+
 LICENSE
 archive
 Downloads
