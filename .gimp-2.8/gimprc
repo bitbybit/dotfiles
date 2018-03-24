@@ -1,0 +1,66 @@
+# GIMP gimprc
+# 
+# This is your personal gimprc file.  Any variable defined in this file takes
+# precedence over the value defined in the system-wide gimprc:
+# /etc/gimp/2.0/gimprc
+# Most values can be set within GIMP by changing some options in the
+# Preferences dialog.
+
+(brush-path "/home/m/.gimp-2.8/brushes")
+(brush-path-writable "/home/m/.gimp-2.8/brushes")
+(default-image
+    (width 640)
+    (height 400)
+    (unit pixels)
+    (xresolution 72.000000)
+    (yresolution 72.000000)
+    (resolution-unit inches)
+    (image-type rgb)
+    (fill-type transparent-fill)
+    (comment ""))
+(default-grid
+    (style solid)
+    (fgcolor (color-rgba 0.866667 0.866667 0.866667 1.000000))
+    (bgcolor (color-rgba 1.000000 1.000000 1.000000 1.000000))
+    (xspacing 10.000000)
+    (yspacing 10.000000)
+    (spacing-unit inches)
+    (xoffset 0.000000)
+    (yoffset 0.000000)
+    (offset-unit inches))
+(undo-levels 80)
+(undo-size 128M)
+(image-status-format "%f-%p.%i (%t) | %n (%m) | %wx%h | %z%% | %d:%d")
+(default-view
+    (show-menubar yes)
+    (show-statusbar yes)
+    (show-rulers yes)
+    (show-scrollbars yes)
+    (show-selection yes)
+    (show-layer-boundary yes)
+    (show-guides yes)
+    (show-grid no)
+    (show-sample-points yes)
+    (padding-mode custom)
+    (padding-color (color-rgb 0.400000 0.400000 0.400000)))
+(default-fullscreen-view
+    (show-menubar yes)
+    (show-statusbar yes)
+    (show-rulers yes)
+    (show-scrollbars yes)
+    (show-selection yes)
+    (show-layer-boundary yes)
+    (show-guides yes)
+    (show-grid no)
+    (show-sample-points yes)
+    (padding-mode custom)
+    (padding-color (color-rgb 0.400000 0.400000 0.400000)))
+(move-tool-changes-active yes)
+(save-device-status yes)
+(toolbox-foo-area yes)
+(toolbox-image-area yes)
+(theme "Small")
+(help-browser web-browser)
+
+
+# end of gimprc

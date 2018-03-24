@@ -1,0 +1,60 @@
+# recently closed docks
+
+(GimpSessionInfo "Передний план/Фон, Передний план/Фон, Палитры цветов, Кисти, Текстуры, Градиенты - Параметры инструментов, Навигация - Слои, Каналы, Контуры, Отменить, Выделение, Гистограмма, Образцовые точки, Шаблоны"
+    (factory-entry "gimp-dock-window")
+    (position 928 125)
+    (size 262 772)
+    (open-on-exit)
+    (aux-info
+        (show-image-menu "false")
+        (follow-active-image "true"))
+    (gimp-dock
+        (book
+            (current-page 3)
+            (dockable "gimp-color-editor"
+                (tab-style preview)
+                (aux-info
+                    (current-page "ColorselWater")))
+            (dockable "gimp-color-editor"
+                (tab-style preview)
+                (aux-info
+                    (current-page "GimpColorSelectorPalette")))
+            (dockable "gimp-palette-list"
+                (tab-style preview))
+            (dockable "gimp-brush-grid"
+                (tab-style preview))
+            (dockable "gimp-pattern-grid"
+                (tab-style preview))
+            (dockable "gimp-gradient-list"
+                (tab-style preview)))
+        (book
+            (position 257)
+            (current-page 0)
+            (dockable "gimp-tool-options"
+                (tab-style icon-name))
+            (dockable "gimp-navigation-view"
+                (tab-style icon-name)))
+        (book
+            (position 498)
+            (current-page 1)
+            (dockable "gimp-layer-list"
+                (tab-style icon)
+                (preview-size 32))
+            (dockable "gimp-channel-list"
+                (tab-style icon)
+                (preview-size 32))
+            (dockable "gimp-vectors-list"
+                (tab-style icon)
+                (preview-size 32))
+            (dockable "gimp-undo-history"
+                (tab-style icon))
+            (dockable "gimp-selection-editor"
+                (tab-style icon))
+            (dockable "gimp-histogram-editor"
+                (tab-style icon))
+            (dockable "gimp-sample-point-editor"
+                (tab-style icon))
+            (dockable "gimp-template-list"
+                (tab-style preview)))))
+
+# end of recently closed docks

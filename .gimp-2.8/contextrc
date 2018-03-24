@@ -1,0 +1,11 @@
+# GIMP user context
+
+(tool "gimp-paintbrush-tool")
+(paint-info "gimp-paintbrush")
+(brush "Round  025")
+(pattern "Simple Noise 1")
+(gradient "FG to Transparent")
+(palette "mi paleta 2009.aco")
+(font "Sans")
+
+# end of user context

@@ -1,0 +1,7 @@
+[core]
+  editor = scite
+  autocrlf = input
+[color]
+  diff = auto
+  status = auto
+  branch = auto

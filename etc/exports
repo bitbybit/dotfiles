@@ -1,0 +1,5 @@
+# ro
+/opt/NFS/data 192.168.1.2(ro,no_subtree_check,sync)
+
+# rw
+/opt/NFS/data 192.168.1.3(rw,no_subtree_check,sync,all_squash,anonuid=100,anongid=100)

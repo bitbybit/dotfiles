@@ -1,0 +1,29 @@
+#threadTree treechildren::-moz-tree-row {
+  font-size: 14px !important;
+  height: 26px !important;
+}
+#threadTree treechildren::-moz-tree-cell-text {
+  font-size: 14px !important;
+  line-height: 26px !important;
+}
+
+/* Mark outgoing mail in folder */
+/* http://www.ggbs.de/extensions/ShowInOut_Styles.html */
+
+/* change the background for rows with outgoing mails to a light green */
+#threadTree treechildren::-moz-tree-row(out) {
+  background-image: url("row-sent.png") !important;
+  background-position: bottom !important;
+  background-repeat: repeat-x !important;
+}
+#threadTree treechildren::-moz-tree-row(odd,out) {
+  background-image: url("row-odd-sent.png") !important;
+  background-position: bottom !important;
+  background-repeat: repeat-x !important;
+}
+
+
+/* set the font style for outgoing mails to italics */
+#threadTree treechildren::-moz-tree-cell-text(out) {
+  color: #0000cc !important;
+}

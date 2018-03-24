@@ -1,0 +1,5 @@
+# auto mount
+192.168.1.1:/opt/NFS/data /opt/data nfs rw,rsize=8192,wsize=8192,timeo=14,intr,user 0 0
+
+# no auto mount
+192.168.1.1:/opt/NFS/data /opt/data nfs rw,rsize=8192,wsize=8192,timeo=14,intr,user,noauto 0 0
