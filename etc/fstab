@@ -3,3 +3,6 @@
 
 # no auto mount
 192.168.1.1:/opt/NFS/data /opt/data nfs rw,rsize=8192,wsize=8192,timeo=14,intr,user,noauto 0 0
+
+# samba no auto mount
+//192.168.1.1:/opt/SMB/data /opt/data cifs file_mode=0777,dir_mode=0777,rsize=8192,wsize=8192,intr,users,_netdev,x-systemd.device-timeout=10,x-systemd.idle-timeout=1min,username=xxx,password=xxx,workgroup=workgroup,iocharset=utf8 0 0
