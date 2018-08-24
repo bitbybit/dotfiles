@@ -14,7 +14,6 @@
 -Dawt.useSystemAAFontSettings=lcd
 -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine
 
--Dawt.useSystemAAFontSettings=lcd
 -Dawt.java2d.opengl=true
 
 -XX:NewSize=512m
