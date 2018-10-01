@@ -18,8 +18,6 @@
 
 -XX:NewSize=512m
 -XX:MaxNewSize=512m
--XX:PermSize=512m
--XX:MaxPermSize=512m
 
 -XX:+UseParNewGC
 -XX:ParallelGCThreads=4
