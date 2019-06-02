@@ -2,7 +2,7 @@ set historylog
 # set mouse
 # set nowrap
 set softwrap
-set tabsize 2
+set tabsize 4
 
 include "/usr/share/nano/c.nanorc"
 include "/usr/share/nano/css.nanorc"
