@@ -10,18 +10,13 @@
     ui = true
     pager = true
 
-[color "branch"]
-    current = 12
-    local = 8
-    remote = 15
-
 [color "diff"]
-    meta = 8
-    frag = 14
-    old = 10
-    new = 15
+    meta = 12
+    frag = 7
+    old = 9
+    new = 10
 
 [color "status"]
-    added = 15
-    changed = 13
-    untracked = 10
+    added = 10
+    changed = 12
+    untracked = 9
